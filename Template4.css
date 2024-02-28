@@ -1,0 +1,744 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.first-page{
+    width: 100%;
+    height: 950px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.first-page img{
+    width: 100%;
+    height: 90%;
+}
+.header{
+    width: 98%;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    column-gap: 70px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+}
+.header ul li:hover{
+    color: #07a0eb;
+    cursor: pointer;
+}
+.header h1 , .header h1:hover{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    width: 99.5%;
+    height: 90%;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    display: flex;
+}
+.left-footer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.left-footer h1{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+.left-footer p{
+    color: white;
+    line-height: 23px;
+    position: absolute;
+    bottom: 240px;
+    left: 150px;
+    font-size: 14px;
+}
+.left-footer button{
+    width: 12%;
+    height: 45px;
+    background-color:#00bbf0;
+    border: none;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+}
+.left-footer button:hover{
+    cursor: pointer;
+    background-color: #007fa4;
+    transition: all 0.3s ease-in-out;
+}
+.right-footer{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.right-footer img{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    animation-name: Photo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out; */
+    animation-direction: normal;
+}
+@keyframes Photo {
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 100px;
+    }
+    100%{
+        bottom: 0px;
+    }
+    
+}
+/* --------------------------------------------------------------------------------------------------------- */
+.second-page{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+.second-page h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: -3px;
+}
+.second-page p{
+    display: flex;
+    justify-content: center;
+}
+.CURRENCY{
+    width: 23%;
+    height: 270px;
+    background-color: #f8f8f9;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Service-img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+}
+.Service-h3{
+    position: absolute;
+    top: 90px;
+}
+.Service-span1{
+    position: absolute;
+    bottom: 110px;
+}
+.Service-span2{
+    position: absolute;
+    bottom: 85px;
+}
+.Service-span3{
+    position: absolute;
+    bottom: 60px;
+}
+.read{
+    text-decoration: none;
+    color: #113677;
+    font-size: 17px;
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+}
+.read:hover{
+    color: #00bbf0;
+}
+
+.SECURITY{
+    width: 23%;
+    height: 270px;
+    background-color: #f8f8f9;
+    position: absolute;
+    bottom: 100px;
+    left: 570px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.EXPERT{
+    width: 23%;
+    height: 270px;
+    background-color: #f8f8f9;
+    position: absolute;
+    bottom: 100px;
+    left: 940px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-page button{
+    width: 10%;
+    height: 40px;
+    background-color: #00bbf0;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    border: none;
+    font-size: 16px;
+}
+.second-page button:hover{
+    cursor: pointer;
+    background-color: #007fa4;
+    transition: all 0.3s ease-in-out;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+.third-page{
+    width: 100%;
+    height: 750px;
+    background-color: #00204a;
+    box-sizing: border-box;
+
+}
+.About-us{
+    width: 100%;
+    height: 180px;
+    display: block;
+}
+.About-us h1{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+.About-us p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -70px;
+}
+.About-us2{
+    width: 99%;
+    height: 515px;
+    display: flex;
+}
+.left-About{
+    width: 50%;
+    height: 90%;
+    display: flex;
+}
+.left-About img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 200px;
+}
+.right-About{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.right-About h1{
+    color: white;
+    position: absolute;
+    top: 65px;
+}
+.right-About p:nth-child(2){
+    position: absolute;
+    line-height: 23px;
+    top: 120px;
+    color: white;
+}
+.right-About p:nth-child(3){
+    position: absolute;
+    line-height: 23px;
+    top: 270px;
+    color: white;
+}
+.right-About button{
+    width: 25%;
+    height: 45px;
+    position: absolute;
+    bottom: 90px;
+    font-size: 16px;
+    color: white;
+    background-color: #00bbf0;
+    border: none;
+}
+.right-About button:hover{
+    cursor: pointer;
+    background-color: #007fa4;
+    transition: all 0.3s ease-in-out;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+.fourth-page{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.fourth-page-h1{
+    position: relative;
+    top: 50px;
+    font-size: 33px;
+}
+.EM{
+    width: 75%;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Choose-img{
+    width: 115px;
+    height: 115px;
+    border: 5px solid #00204a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Choose-img img{
+    width: 60px;
+    height: 60px;
+}
+.Choose-h1{
+    margin-bottom: 10px;
+}
+.EM span{
+    line-height: 23px;
+}
+
+.SI{
+    width: 75%;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SI span{
+    line-height: 23px;
+}
+
+.IT{
+    width: 75%;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.IT span{
+    line-height: 23px;
+}
+
+.HC{
+    width: 75%;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HC span{
+    line-height: 23px;
+}
+.Read-More{
+    width: 12%;
+    height: 45px;
+    font-size: 16px;
+    color: white;
+    background-color: #00bbf0;
+    border: none;
+}
+.Read-More:hover{
+    cursor: pointer;
+    background-color: #007fa4;
+    transition: all 0.3s ease-in-out;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.fifth-page{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    background-color: #00204a;
+    display: flex;
+}
+.fifth-page h1{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+.Joseph{
+    width: 22%;
+    height: 350px;
+   position: absolute;
+   top: 180px;
+   left: 3%;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #00285b;
+   box-shadow: 0 2px 4px 0 #00204a;
+}
+.Team-img{
+    width: 110px;
+    height: 110px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+}
+.Team-img img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.Team-h3{
+    color: #00bbf0;
+    position: absolute;
+    top: 160px;
+}
+.Team-span{
+    color: white;
+    position: absolute;
+    bottom: 120px;
+}
+.Team-tag{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    column-gap: 40px;
+    font-size: 23px;
+}
+.Team-tag i:hover{
+    color: #00bbf0;
+}
+
+.Nancy{
+    width: 22%;
+    height: 350px;
+    position: absolute;
+    top: 180px;
+    left: 27%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00285b;
+    box-shadow: 0 2px 4px 0 #00204a;
+}
+.Earl{
+    width: 22%;
+    height: 350px;
+    position: absolute;
+    top: 180px;
+    left: 51%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00285b;
+    box-shadow: 0 2px 4px 0 #00204a;
+}
+.Allard{
+    width: 22%;
+    height: 350px;
+    position: absolute;
+    top: 180px;
+    left: 75%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00285b;
+    box-shadow: 0 2px 4px 0 #00204a;
+}
+/* ------------------------------------------------------------------------------------------------- */
+.sixth-page{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.sixth-page h1{
+    position: absolute;
+    top: 50px;
+}
+.Lusden{
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    box-shadow: 0 2px 4px 2px lightgray;
+}
+.Lusden img{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+}
+.Customers-h5{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.Customers-p1{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    font-size: 15px;
+    color:#3b3b3b;
+}
+.Customers-p2{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: 17px;
+    color:#3b3b3b;
+    line-height: 23px;
+}
+.Lusden i{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+.Zen{
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    right: 125px;
+    box-shadow: 0 2px 4px 2px lightgray;
+}
+.Zen img{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+}
+.Zen i{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+.previous , .previous:hover{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+    left: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px 0 lightgray;
+    cursor: pointer;
+}
+.next , .next:hover{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+    left: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px 0 lightgray;
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------------------------------------------- */
+.seventh-page{
+    width: 100%;
+    height: 350px;
+    background-color: #00204a;
+    margin-top: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.Address{
+    width: 15%;
+    height: 200px;
+    position: relative;
+    top: -40px;
+    left: 150px;
+    display: flex;
+}
+.Address h1{
+    color: white;
+    position: absolute;
+    top: -10px;
+}
+.Address ul{
+    list-style: none;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+    line-height: 30px;
+}
+.Address ul li:hover{
+    color: #00bbf0;
+}
+.tag{
+    width: 50%;
+    color: white;
+    position: relative;
+    top: 170px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.tag i:hover{
+    color: #00bbf0;
+}
+.Info{
+    width: 20%;
+    height: 200px;
+    position: relative;
+    top: -50px;
+    left: 200px;
+}
+.Info h1{
+    color: white;
+    font-size: 25px;
+}
+.Info p{
+    color: white;
+    font-size: 17px;
+    line-height: 23px;
+}
+.Links{
+    width: 10%;
+    height: 230px;
+    position: relative;
+    top: -35px;
+    left: 220px;
+    color: white;
+}
+.Links ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.Links ul li:hover{
+    color: #00bbf0;
+    cursor: pointer;
+}
+.Links h1{
+    position: relative;
+    left: 30px;
+}
+.form{
+    width: 20%;
+    height: 250px;
+    position: relative;
+    top: -30px;
+    left: 22%;
+    color: white;
+}
+.form input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 75px;
+    color: white;
+    font-size: 17px;
+}
+.form hr{
+    margin-top: 33px;
+}
+.form input::placeholder{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+}
+.form button{
+    width: 100%;
+    height: 43px;
+    color: white;
+    background-color: #00bbf0;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    top: 135px;
+}
+.form button:hover{
+    background-color: #007fa4;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+/* ----------------------------------------------------------------------------------------------- */
+.Eighth-page{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00204a;
+}
